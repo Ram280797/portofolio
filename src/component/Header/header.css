@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+
+
+.Header{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    background-color:  rgb(44, 13, 65);
+    background-position: contain;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+
+}
+.Header__left {
+    flex: 0.4;
+}
+.Header__left.h1{
+    text-align: center;
+    font-family:"Alata",sans-serif ;
+    letter-spacing: 1px;
+    padding: 20px 0;
+
+}
+.Header__left>h1>span{
+color: red;
+}
+.Header__right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Header__right >a>h4{
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "Crimson Text",serif;
+    letter-spacing: 1px;
+}
+.Header__right>a>h4:hover{
+    transform: scale(0.9);
+    background-color: red;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "Crimson Text",serif;
+    font-size: 18px;
+    cursor: pointer;
+
+}

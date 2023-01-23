@@ -1,0 +1,49 @@
+.project > img{
+    width :250px;
+    height:250px;
+}
+.project{
+    margin: 15px;
+    width: 250px;
+    height:250px;
+    transition:transform  100ms ease-in;
+    background-color:#e7fff5 ;
+}
+.project:hover{
+    color: whitesmoke;
+    background-color: orangered;
+    transform: scale(1.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.project__content{
+    padding: 10px;
+
+}
+.project__content>h4{
+    padding-bottom: 5px;
+
+}
+.project__content>p{
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.project__content>button{
+    color: white;
+border: 1px solid black !important;
+background-color: rgb(44, 13, 65);
+font-size: 14px;
+padding: 10px 30px;
+font-family: "Montserrat",sans-serif;
+font-weight: 300;
+cursor: pointer;
+margin-right: 20px;
+}
+.project__content>button:hover{
+    color: black;
+    background-color: whitesmoke;
+    font-weight: 600;
+    }
+

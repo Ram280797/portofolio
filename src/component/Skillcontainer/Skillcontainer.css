@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+
+
+.skillContainer{
+    /* background: #E7FFF5 ;
+    height: 100vh; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    /* border: 2px solid; */
+}
+
+.skillContainer_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ 
+    background: #e7fff5;
+
+}
+.skillContainer_text>h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:  rgb(44, 13, 65);
+
+}
+
+.box{
+ 
+    width: 300px;
+    border-bottom:20px solid  rgb(44, 13, 65);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+.box> h2{
+    color: #fff;
+    background: rgb(44, 13, 65);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box >ul{
+    position: relative;
+    background:  rgb(44, 13, 65);
+}
+.box >ul> li{
+    list-style:none;
+    padding: 10px;
+    width: 80%;
+    height: 30px;
+    background: rgb(44, 13, 65);
+    box-shadow: 0 ,5px ,25px rgba(243, 238, 238, 0.934);
+    transition: transform 0.5s;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.box >ul >li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: orangered;
+    box-shadow: 0, 5px, 25px rgba(0,0,0,.1);
+    color: black;
+    padding: 10%;
+    width: 60%;
+  
+    }
+
+    .box >ul >li span{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        background: #25bcFF;
+        color: #fff;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        transform: translateY(-2px);
+        }
+        .box> ul> li:hover> span{
+            background: #fff;
+            color: rgb(44, 13, 65) ;
+            
+
+        }
+        .skillContainer_text>img{
+            width: 40%;
+            height: 100%;
+            padding-right: 80px;
+            border: royalblue
+           
+        }
