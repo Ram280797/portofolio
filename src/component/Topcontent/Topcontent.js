@@ -10,7 +10,7 @@ function Topcontent() {
       <div className="topcontent__container">
         <h1>Mr.S.Ramkumar</h1>
         <p>A professional Web Developer & UI and UX Designer</p>
-        <a href="www.google.com">
+        <a href="https://www.google.com/">
           <button className="topcontent__downloadButton">Download Cv</button>
         </a>
         <Link to="project" smooth={true} duration={500}>
